@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TabWidget>
+                <ListView
+                    android:id="@+id/lstView_DadosSinteticos_ACTAnalisePesquisa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></ListView>
+            </TabWidget>
+
+            <TabWidget>
+                <ListView
+                    android:id="@+id/lstView_Perguntas_ACTAnalisePesquisa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></ListView>
+            </TabWidget>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</LinearLayout>

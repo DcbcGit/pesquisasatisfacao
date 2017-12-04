@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    android:background="#FFD700"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="500dp"
+        android:elevation="20dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="37dp"
+        android:gravity="center"
+        android:text="Obrigado por Responder..."
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btnAbreListaPerguntas_ACTTelaFinalPesquisa"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/botao_tela_lista_perguntas"
+        android:elevation="6dp"
+        android:stateListAnimator="@null"
+        android:text="..."
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</RelativeLayout>

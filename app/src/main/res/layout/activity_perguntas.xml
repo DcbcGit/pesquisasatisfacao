@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="55dp"
+            android:text="Perguntas São Mostradas Aqui..."
+            android:id="@+id/txtPergunta_ACTPergunta"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:collapseColumns="30dp"
+            android:gravity="center"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TabWidget android:padding="10dp">
+
+                    <Button
+                        android:tag="1"
+                        android:elevation="15dp"
+                        android:id="@+id/btnResposta01_ACTPerguntas"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/btn01" />
+                </TabWidget>
+
+                <TabWidget android:padding="10dp">
+
+                    <Button
+                        android:tag="2"
+                        android:elevation="15dp"
+                        android:id="@+id/btnResposta02_ACTPerguntas"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/btn02" />
+                </TabWidget>
+
+                <TabWidget android:padding="10dp">
+
+                    <Button
+                        android:tag="3"
+                        android:elevation="15dp"
+                        android:id="@+id/btnResposta03_ACTPerguntas"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/btn03" />
+                </TabWidget>
+
+                <TabWidget android:padding="10dp">
+
+                    <Button
+                        android:tag="4"
+                        android:elevation="15dp"
+                        android:id="@+id/btnResposta04_ACTPerguntas"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/btn04" />
+                </TabWidget>
+
+                <TabWidget android:padding="10dp">
+
+                    <Button
+                        android:tag="5"
+                        android:elevation="15dp"
+                        android:id="@+id/btnResposta05_ACTPerguntas"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/btn05" />
+                </TabWidget>
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

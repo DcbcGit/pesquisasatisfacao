@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pesquisa Satisfação</string>
+
+    <string name="title_activity_primeira__pergunta">Primeira_Pergunta</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

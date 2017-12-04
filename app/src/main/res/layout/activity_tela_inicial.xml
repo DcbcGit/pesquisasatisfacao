@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#FFD700"
+    android:gravity="center_horizontal|center_vertical">
+
+    <Button
+        android:id="@+id/btnInicioPesquisa_ActTelaInicial"
+        android:layout_width="450dp"
+        android:layout_height="200dp"
+        android:background="@drawable/botao_select_inicial_clique"
+        android:text="Iniciar Pesquisa"
+        android:textColor="#000"
+        android:textSize="60px"
+        android:stateListAnimator="@null"
+        android:elevation="15dp"
+        />
+
+</LinearLayout>

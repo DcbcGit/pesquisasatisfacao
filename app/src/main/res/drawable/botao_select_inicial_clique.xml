@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- pressionado -->
+    <item android:drawable="@drawable/botao_inicial_clicado" android:state_pressed="true"/>
+
+    <!-- focalisado-->
+    <item android:drawable="@drawable/botao_inicial_normal" android:state_focused="true"/>
+
+    <!-- normal-->
+    <item android:drawable="@drawable/botao_inicial_normal"/>
+</selector>
